@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 html</title>
+    <style>
+        #paragrafo-explicativo{
+         background-color: rgb(136, 136, 185);
+        }
+        #paragrafo-textual{
+            background: rgb(151, 216, 151);
+        }
+        .vermelho{
+            background: rgb(221, 133, 133);
+        }
+        .img-in-text{
+            height: 250px;
+            width: 180px;
+        }
+        .span{
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <h2 class="vermelho">Subtitulo</h2>
+    <p id="paragrafo-explicativo">Parágrafo, onde se escreve informações.</p>
+    <hr>
+    <p id="paragrafo-textual">
+        <code>console.log</code>
+        Lorem ipsum <del>erro</del> <ins>dolor</ins> <u>sublime</u> amet consectetur adipisicing elit. <br>
+        Deleniti hic ipsum recusandae ea aut, libero accusamus <br>
+        qui inventore <em>voluptates </em><i>asperiores</i> doloribus <br> 
+        doloremque <b>consectetur </b>adipisci <strong>sequi</strong> placeat beatae fa <br>
+        cilis cumque. 2<sup>2</sup> <br> H<sub>2</sub>O
+        <q>Fica uma citação</q>
+        <a href="u.gg" target="blank">runas</a>
+    </p>
+    <h2 class="vermelho">mesma classe do subtitulo</h2>
+    <hr>
+    <img class="img-in-text" src="https://umangas.club/assets/uploads/mangas/09b23d07.jpg" alt="poster mangá chainsaw man">
+        <blockquote cite="twitter.com">
+            Aqui fica um bloco de citação
+        </blockquote>
+        <span>Span é uma tag inline</span>
+        <div>Div é uma tag em bloco</div>
+    <pre>
+        <code>
+            if(conhecimento == existe){
+                console.log('salveeee');
+            }else{
+                console.log(triste cara);
+            }
+            //tag de texto pré formatado onde não haverá alteração do texto no html;
+        </code>
+    </pre>
+</body>
+</html>
